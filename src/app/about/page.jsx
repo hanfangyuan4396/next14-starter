@@ -1,6 +1,12 @@
+import HydtraionTest from "@/components/hydrationTest";
+
 const AboutPage = () => {
+    console.log("About Page works here")
     return (
-        <div>AboutPage</div>
+        <div>
+            <HydtraionTest />
+            AboutPage
+        </div>
     )
 };
 
